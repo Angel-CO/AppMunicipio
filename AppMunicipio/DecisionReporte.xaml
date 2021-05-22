@@ -1,0 +1,18 @@
+﻿<Window x:Class="AppMunicipio.DecisionReporte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppMunicipio"
+        mc:Ignorable="d"
+        Title="DecisionReporte" Height="255.924" Width="390.521">
+    <Grid>
+        <Label Content="Seleccione la opción a desear sobre el Reporte Vehicular:" HorizontalAlignment="Left" Height="39" Margin="42,10,0,0" VerticalAlignment="Top" Width="311"/>
+        <Button x:Name="btn_levantarReporte" Content="Levantar Reporte " HorizontalAlignment="Left" Height="26" Margin="116,49,0,0" VerticalAlignment="Top" Width="156" Click="btn_levantarReporte_click"/>
+        <Button x:Name="btn_consultarReporte" Content="Consultar Reportes " HorizontalAlignment="Left" Height="26" Margin="116,89,0,0" VerticalAlignment="Top" Width="156" Click="btn_consultarReporte_click"/>
+        <Button x:Name="btn_ConsultarDictamen" Content="Consultar Dictamen de Reportes " HorizontalAlignment="Left" Height="26" Margin="101,134,0,0" VerticalAlignment="Top" Width="190" Click="btn_consultarDictamen_click"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Height="26" Margin="10,165,0,0" VerticalAlignment="Top" Width="98" Click="btn_regresar_click"/>
+
+    </Grid>
+
+</Window>

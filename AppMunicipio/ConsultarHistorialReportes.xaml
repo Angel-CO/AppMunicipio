@@ -1,0 +1,19 @@
+﻿<Window x:Class="AppMunicipio.ConsultarHistorialReportes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppMunicipio"
+        mc:Ignorable="d"
+        Title="ConsultarHistorialReportes" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF4F4E4E" HorizontalAlignment="Left" Height="59" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Height="38" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" Click="btn_regresar_click"/>
+        <Label Content="Consultar Historial Reportes" HorizontalAlignment="Left" Height="36" Margin="221,12,0,0" VerticalAlignment="Top" Width="266" FontSize="20" Foreground="White"/>
+        <Label Content="Seleccione el Reporte que desee Consultar: " HorizontalAlignment="Left" Height="40" Margin="173,64,0,0" VerticalAlignment="Top" Width="360" FontSize="18"/>
+        <Label Content="Busqueda: " HorizontalAlignment="Left" Height="36" Margin="95,109,0,0" VerticalAlignment="Top" Width="100" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="195,109,0,0" TextWrapping="Wrap" Text="num Reporte" VerticalAlignment="Top" Width="238" FontSize="14"/>
+        <StackPanel HorizontalAlignment="Left" Height="190" Margin="95,150,0,0" VerticalAlignment="Top" Width="484" Background="#FFECECEC"/>
+
+    </Grid>
+</Window>

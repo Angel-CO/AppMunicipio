@@ -1,0 +1,219 @@
+﻿<Window x:Class="AppMunicipio.ListaVehiculos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppMunicipio"
+        mc:Ignorable="d"
+        Title="ListaVehiculos" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#353535" Grid.Row="0" >
+            <Button x:Name="btn_cancelar"
+                    Content="Cancelar"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Margin="10,0,0,0"
+                    Height="30"
+                    Width="70"
+                    Background="Red"
+                    Foreground="White"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Label Content="Lista de vehículos" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Center" FontFamily="Bell MT" FontSize="24" FontWeight="Bold"/>
+            <Image Source="/images/logoSSP.png" HorizontalAlignment="Right" />
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="550"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                <Label Content="Filtrar por:"
+                   FontFamily="Bell MT" FontSize="18"
+                   Margin="0,0,10,0"/>
+                <ComboBox x:Name="cb_filtro"
+                    Width="120"
+                    Margin="0,0,10,0">
+                    <ComboBoxItem Content="Todos"/>
+                    <ComboBoxItem Content="Marca"/>
+                    <ComboBoxItem Content="Modelo"/>
+                    <ComboBoxItem Content="Color"/>
+                    <ComboBoxItem Content="Año"/>
+                    <ComboBoxItem Content="Núm. de placas"/>
+                </ComboBox>
+                <TextBox x:Name="tb_buscar" 
+                     Height="30"
+                     TextWrapping="Wrap"
+                     Width="150"
+                     Background="#C4C4C4"
+                     Margin="0,0,10,0"/>
+                <Button x:Name="btn_buscar"
+                    Content="Buscar"
+                    Width="75"/>
+            </StackPanel>
+
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+            <ListView Margin="10" Grid.Column="0">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Marca" Width="100"/>
+                        <GridViewColumn Header="Modelo" Width="100"/>
+                        <GridViewColumn Header="Color" Width="100"/>
+                        <GridViewColumn Header="Año" Width="100"/>
+                        <GridViewColumn Header="Núm. de placas" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0"
+                       Content="Marca: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_marca"
+                         Grid.Column="1" Grid.Row="0"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+                <Label Grid.Column="0" Grid.Row="1"
+                       Content="Modelo: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_modelo"
+                         Grid.Column="1" Grid.Row="1"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+                <Label Grid.Column="0" Grid.Row="2"
+                       Content="Color: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_color"
+                         Grid.Column="1" Grid.Row="2"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+                <Label Grid.Column="0" Grid.Row="3"
+                       Content="Año: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_año"
+                         Grid.Column="1" Grid.Row="3"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+                <Label Grid.Column="0" Grid.Row="4"
+                       Content="Núm. de placas: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_numeroPlacas"
+                         Grid.Column="1" Grid.Row="4"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+                <Label Grid.Column="0" Grid.Row="5"
+                       Content="Aseguradora: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_aseguradora"
+                         Grid.Column="1" Grid.Row="5"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+                <Label Grid.Column="0" Grid.Row="6"
+                       Content="Núm. de póliza de seguro: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_polizaSeguro"
+                         Grid.Column="1" Grid.Row="6"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+                <Label Grid.Column="0" Grid.Row="7"
+                       Content="Conductor: "
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+
+                <TextBox x:Name="tb_conductor"
+                         Grid.Column="1" Grid.Row="7"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+                <Grid Grid.Column="1" Grid.Row="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn_modificar"
+                        Content="Modificar"
+                        Grid.Column="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Width="75"/>
+                    <Button x:Name="btn_eliminar"
+                        Content="Eliminar"
+                        Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Width="75"/>
+                </Grid>
+
+
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>
