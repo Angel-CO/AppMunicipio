@@ -61,9 +61,19 @@
     <Compile Include="ListaConductores.xaml.cs">
       <DependentUpon>ListaConductores.xaml</DependentUpon>
     </Compile>
+    <Compile Include="modelo\dao\ConductorDAO.cs" />
+    <Compile Include="modelo\dao\VehiculoDAO.cs" />
     <Compile Include="modelo\db\ConexionBD.cs" />
+    <Compile Include="modelo\poco\Conductor.cs" />
+    <Compile Include="modelo\poco\Vehiculo.cs" />
     <Compile Include="RegistrarVehiculo.xaml.cs">
       <DependentUpon>RegistrarVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vista\CrudConductor.xaml.cs">
+      <DependentUpon>CrudConductor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormularioConductor.xaml.cs">
+      <DependentUpon>FormularioConductor.xaml</DependentUpon>
     </Compile>
     <Page Include="Chat.xaml">
       <SubType>Designer</SubType>
@@ -135,6 +145,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="vista\CrudConductor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vista\FormularioConductor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MenuMunicipio.xaml.cs">
@@ -178,10 +196,6 @@
     <Resource Include="Images\choque04.png" />
     <Resource Include="Images\logoSSP.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="modelo\dao\" />
-    <Folder Include="modelo\poco\" />
-    <Folder Include="vista\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

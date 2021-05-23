@@ -33,3 +33,7 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\D
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaConductores.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DetallesConductor.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaConductores.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudConductor.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudConductor.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioConductor.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioConductor.baml
