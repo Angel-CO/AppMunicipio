@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\App.xaml
-11-153205516
+13439959436
 
-151566745188
+22208585297
 13-1505183044
-Chat.xaml;ConsultarDictamenReporte.xaml;ConsultarHistorialReportes.xaml;DecisionReporte.xaml;DetallesConductor.xaml;LevantarReporte.xaml;ListaConductores.xaml;ListaVehiculos.xaml;MainWindow.xaml;MenuMunicipio.xaml;RegistrarVehiculo.xaml;
+Chat.xaml;ConsultarDictamenReporte.xaml;ConsultarHistorialReportes.xaml;DecisionReporte.xaml;DetallesConductor.xaml;LevantarReporte.xaml;ListaConductores.xaml;ListaVehiculos.xaml;MainWindow.xaml;MenuMunicipio.xaml;RegistrarVehiculo.xaml;vista\CrudConductor.xaml;vista\FormularioConductor.xaml;
 
 False
 

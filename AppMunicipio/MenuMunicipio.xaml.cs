@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppMunicipio.vista;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,8 +33,10 @@ namespace AppMunicipio
 
         private void btn_conductores_click(object sender, RoutedEventArgs e)
         {
-            ListaConductores listaConductores = new ListaConductores();
-            listaConductores.Show();
+            CrudConductor crudConductor = new CrudConductor();
+            crudConductor.Show();
+            //ListaConductores listaConductores = new ListaConductores();
+            //listaConductores.Show();
             this.Close();
         }
 
