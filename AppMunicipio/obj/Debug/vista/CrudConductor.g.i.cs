@@ -49,31 +49,7 @@ namespace AppMunicipio.vista {
         #line hidden
         
         
-        #line 43 "..\..\..\vista\CrudConductor.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.ComboBox cb_filtro;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 53 "..\..\..\vista\CrudConductor.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox tbBuscar;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 59 "..\..\..\vista\CrudConductor.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btnBuscar;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 63 "..\..\..\vista\CrudConductor.xaml"
+        #line 40 "..\..\..\vista\CrudConductor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnAgregar;
         
@@ -81,7 +57,7 @@ namespace AppMunicipio.vista {
         #line hidden
         
         
-        #line 67 "..\..\..\vista\CrudConductor.xaml"
+        #line 44 "..\..\..\vista\CrudConductor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnModificar;
         
@@ -89,7 +65,7 @@ namespace AppMunicipio.vista {
         #line hidden
         
         
-        #line 72 "..\..\..\vista\CrudConductor.xaml"
+        #line 49 "..\..\..\vista\CrudConductor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnEliminar;
         
@@ -97,7 +73,7 @@ namespace AppMunicipio.vista {
         #line hidden
         
         
-        #line 79 "..\..\..\vista\CrudConductor.xaml"
+        #line 56 "..\..\..\vista\CrudConductor.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ListView lvCondcutores;
         
@@ -144,45 +120,36 @@ namespace AppMunicipio.vista {
             #line hidden
             return;
             case 2:
-            this.cb_filtro = ((System.Windows.Controls.ComboBox)(target));
-            return;
-            case 3:
-            this.tbBuscar = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 4:
-            this.btnBuscar = ((System.Windows.Controls.Button)(target));
-            return;
-            case 5:
             this.btnAgregar = ((System.Windows.Controls.Button)(target));
             
-            #line 66 "..\..\..\vista\CrudConductor.xaml"
+            #line 43 "..\..\..\vista\CrudConductor.xaml"
             this.btnAgregar.Click += new System.Windows.RoutedEventHandler(this.btnAgregar_Click);
             
             #line default
             #line hidden
             return;
-            case 6:
+            case 3:
             this.btnModificar = ((System.Windows.Controls.Button)(target));
             
-            #line 71 "..\..\..\vista\CrudConductor.xaml"
+            #line 48 "..\..\..\vista\CrudConductor.xaml"
             this.btnModificar.Click += new System.Windows.RoutedEventHandler(this.btnModificar_Click);
             
             #line default
             #line hidden
             return;
-            case 7:
+            case 4:
             this.btnEliminar = ((System.Windows.Controls.Button)(target));
             
-            #line 75 "..\..\..\vista\CrudConductor.xaml"
+            #line 52 "..\..\..\vista\CrudConductor.xaml"
             this.btnEliminar.Click += new System.Windows.RoutedEventHandler(this.btnEliminar_Click);
             
             #line default
             #line hidden
             return;
-            case 8:
+            case 5:
             this.lvCondcutores = ((System.Windows.Controls.ListView)(target));
             
-            #line 79 "..\..\..\vista\CrudConductor.xaml"
+            #line 56 "..\..\..\vista\CrudConductor.xaml"
             this.lvCondcutores.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.lvCondcutores_SelectionChanged);
             
             #line default

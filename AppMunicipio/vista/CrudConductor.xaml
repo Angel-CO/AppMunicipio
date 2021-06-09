@@ -37,29 +37,6 @@
                     Orientation="Horizontal"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center">
-                <Label Content="Filtrar por:"
-                   FontFamily="Bell MT" FontSize="18"
-                   Margin="0,0,10,0"/>
-                <ComboBox x:Name="cb_filtro"
-                    Width="120"
-                    Margin="0,0,10,0">
-                    <ComboBoxItem Content="Todos"/>
-                    <ComboBoxItem Content="Nombre"/>
-                    <ComboBoxItem Content="Apellido paterno"/>
-                    <ComboBoxItem Content="Apellido materno"/>
-                    <ComboBoxItem Content="Número de licencia"/>
-                    <ComboBoxItem Content="Teléfono"/>
-                </ComboBox>
-                <TextBox x:Name="tbBuscar" 
-                     Height="30"
-                     TextWrapping="Wrap"
-                     Width="150"
-                     Background="#C4C4C4"
-                     Margin="0,0,10,0"/>
-                <Button x:Name="btnBuscar"
-                        Content="Buscar"
-                        Width="60"
-                        Margin="0,0,80,0"/>
                 <Button x:Name="btnAgregar"
                         Content="Agregar"
                         Margin="0,0,10,0"
