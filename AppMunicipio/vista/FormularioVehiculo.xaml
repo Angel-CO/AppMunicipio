@@ -1,0 +1,148 @@
+﻿<Window x:Class="AppMunicipio.vista.FormularioVehiculo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppMunicipio.vista"
+        mc:Ignorable="d"
+        Title="FormularioVehiculo" Height="470" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#353535" Grid.Row="0" >
+            <Button x:Name="btnCancelar"
+                    Content="Cancelar"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Margin="10,0,0,0"
+                    Height="30"
+                    Width="70"
+                    Background="Red"
+                    Foreground="White" Click="btnCancelar_Click"/>
+            <Label x:Name="lbTitulo" Content="Titulo"
+                   VerticalAlignment="Center"
+                   Margin="0,0,0,0"
+                   HorizontalAlignment="Center"
+                   FontFamily="Bell MT"
+                   Foreground="White"
+                   FontSize="24" FontWeight="Bold"/>
+            <Image Source="/images/logoSSP.png"
+                   HorizontalAlignment="Right" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0"
+                       Content="Conductor:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <Label x:Name="lbConductor"
+                         Grid.Column="1" Grid.Row="0"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="Auto" Width="Auto"/>
+
+            <Label Grid.Column="0" Grid.Row="1"
+                       Content="Marca:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbMarca"
+                         Grid.Column="1" Grid.Row="1"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+            <Label Grid.Column="0" Grid.Row="2"
+                       Content="Modelo:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbModelo"
+                         Grid.Column="1" Grid.Row="2"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+            <Label Grid.Column="0" Grid.Row="3"
+                       Content="Año:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbAnio"
+                         Grid.Column="1" Grid.Row="3"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"
+                         MaxLength="4"/>
+
+            <Label Grid.Column="0" Grid.Row="4"
+                       Content="Color:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbColor"
+                         Grid.Column="1" Grid.Row="4"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+            <Label Grid.Column="0" Grid.Row="5"
+                       Content="Nombre aseguradora (opcional):"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbNombreAseguradora"
+                         Grid.Column="1" Grid.Row="5"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Center" 
+                         Height="23" Width="200"
+                         TextWrapping="Wrap"/>
+
+            <Label Grid.Column="0" Grid.Row="6"
+                       Content="No. poliza de seguro (opcional):"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbNumPolizaSeguro"
+                     Grid.Column="1" Grid.Row="6"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Center" 
+                     Height="23" Width="200"
+                     TextWrapping="Wrap"/>
+
+            <Label Grid.Column="0" Grid.Row="7"
+                       Content="No. placas:"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"/>
+            <TextBox x:Name="tbNumPlaca"
+                     Grid.Column="1" Grid.Row="7"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Center" 
+                     Height="23" Width="200"
+                     TextWrapping="Wrap"
+                     MaxLength="7"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button x:Name="btnGuardar"
+                    Content="Guardar"
+                    Width="60"
+                    Height="20" Click="btnGuardar_Click"/>
+        </Grid>
+
+    </Grid>
+
+</Window>

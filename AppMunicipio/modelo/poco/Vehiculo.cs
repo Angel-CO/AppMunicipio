@@ -11,19 +11,23 @@ namespace AppMunicipio.modelo.poco
         private int idVehiculo;
         private String marca;
         private String modelo;
-        private DateTime anio;
+        private int anio;
+        private String color;
         private String nombreAseguradora;
         private String numPolizaSeguro;
         private String numPlaca;
         private int idConductor;
+        private String nombreConductor;
 
         public int IdVehiculo { get => idVehiculo; set => idVehiculo = value; }
         public string Marca { get => marca; set => marca = value; }
         public string Modelo { get => modelo; set => modelo = value; }
-        public DateTime Anio { get => anio; set => anio = value; }
+        public int Anio { get => anio; set => anio = value; }
+        public string Color { get => color; set => color = value; }
         public string NombreAseguradora { get => nombreAseguradora; set => nombreAseguradora = value; }
         public string NumPolizaSeguro { get => numPolizaSeguro; set => numPolizaSeguro = value; }
         public string NumPlaca { get => numPlaca; set => numPlaca = value; }
         public int IdConductor { get => idConductor; set => idConductor = value; }
+        public string NombreConductor { get => nombreConductor; set => nombreConductor = value; }
     }
 }

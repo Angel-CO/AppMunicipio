@@ -37,3 +37,9 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\v
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudConductor.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioConductor.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioConductor.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudVehiculo.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudVehiculo.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\ListaConductores.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\ListaConductores.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioVehiculo.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioVehiculo.baml

@@ -42,8 +42,10 @@ namespace AppMunicipio
 
         private void btn_vehiculos_click(object sender, RoutedEventArgs e)
         {
-            ListaVehiculos listaVehiculos = new ListaVehiculos();
-            listaVehiculos.Show();
+            CrudVehiculo crudVehiculo = new CrudVehiculo();
+            crudVehiculo.Show();
+            //ListaVehiculos listaVehiculos = new ListaVehiculos();
+            //listaVehiculos.Show();
             this.Close();
         }
 

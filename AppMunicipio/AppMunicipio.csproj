@@ -63,17 +63,28 @@
     </Compile>
     <Compile Include="modelo\dao\ConductorDAO.cs" />
     <Compile Include="modelo\dao\VehiculoDAO.cs" />
+    <Compile Include="modelo\dao\VehiculoReporteDAO.cs" />
     <Compile Include="modelo\db\ConexionBD.cs" />
     <Compile Include="modelo\poco\Conductor.cs" />
     <Compile Include="modelo\poco\Vehiculo.cs" />
+    <Compile Include="modelo\poco\VehiculoReporte.cs" />
     <Compile Include="RegistrarVehiculo.xaml.cs">
       <DependentUpon>RegistrarVehiculo.xaml</DependentUpon>
     </Compile>
     <Compile Include="vista\CrudConductor.xaml.cs">
       <DependentUpon>CrudConductor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="vista\CrudVehiculo.xaml.cs">
+      <DependentUpon>CrudVehiculo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vista\FormularioConductor.xaml.cs">
       <DependentUpon>FormularioConductor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormularioVehiculo.xaml.cs">
+      <DependentUpon>FormularioVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vista\ListaConductores.xaml.cs">
+      <DependentUpon>ListaConductores.xaml</DependentUpon>
     </Compile>
     <Page Include="Chat.xaml">
       <SubType>Designer</SubType>
@@ -149,7 +160,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="vista\CrudVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="vista\FormularioConductor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vista\FormularioVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vista\ListaConductores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
