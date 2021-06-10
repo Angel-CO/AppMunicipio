@@ -76,7 +76,7 @@ namespace AppMunicipio.vista
         {
             string erNombre = @"[a-zA-Z]$";
             string erApellidos = @"[a-zA-Z]$";
-            string erNumLicencia = @"[a-zA-Z0-9]";
+            string erNumLicencia = @"[a-zA-Z0-9]{12}";
             string erTelefono = @"[0-9]{10}$";
             bool datosValidos = true;
 

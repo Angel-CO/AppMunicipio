@@ -69,7 +69,7 @@ namespace AppMunicipio.vista
             List<Vehiculo> vehiculos = VehiculoDAO.getVehiculosConductor(conductor);
             if (VehiculoDAO.getVehiculosConductor(conductor).Count == 0)
             {
-                MessageBoxResult resultado = MessageBox.Show("¿Esta seguro de eliminar el conductor(a) " +
+                MessageBoxResult resultado = MessageBox.Show("¿Está seguro de eliminar el conductor(a) " +
                 conductor.Nombre + " " + conductor.ApellidoPaterno + " " + conductor.ApellidoMaterno + "?"
                 , "Confirmar acción", MessageBoxButton.OKCancel);
                 if (resultado == MessageBoxResult.OK)
@@ -81,7 +81,7 @@ namespace AppMunicipio.vista
             }
             else
             {
-                MessageBox.Show("No se puede eliminar porque tiene vehiculos asociados");
+                MessageBox.Show("No se puede eliminar porque tiene vehículos asociados");
             }
             
         }

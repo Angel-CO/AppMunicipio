@@ -100,7 +100,8 @@
                          HorizontalAlignment="Left"
                          VerticalAlignment="Center" 
                          Height="23" Width="200"
-                         TextWrapping="Wrap"/>
+                         TextWrapping="Wrap"
+                         MaxLength="12"/>
 
             <Label Grid.Column="0" Grid.Row="5"
                        Content="Teléfono: "
