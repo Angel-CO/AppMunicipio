@@ -4,7 +4,6 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\A
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio_MarkupCompile.cache
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio_MarkupCompile.lref
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DecisionReporte.g.cs
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\LevantarReporte.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\MenuMunicipio.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\bin\Debug\AppMunicipio.exe.config
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\bin\Debug\AppMunicipio.exe
@@ -14,7 +13,6 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\C
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarHistorialReportes.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\MainWindow.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DecisionReporte.baml
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\LevantarReporte.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\MenuMunicipio.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\Chat.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarDictamenReporte.baml
@@ -25,14 +23,6 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\A
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio.csproj.CoreCompileInputs.cache
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio.exe
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio.pdb
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaVehiculos.g.cs
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\RegistrarVehiculo.g.cs
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaVehiculos.baml
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\RegistrarVehiculo.baml
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DetallesConductor.g.cs
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaConductores.g.cs
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DetallesConductor.baml
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ListaConductores.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudConductor.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\CrudConductor.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioConductor.g.cs
@@ -43,3 +33,5 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\v
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\ListaConductores.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioVehiculo.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\FormularioVehiculo.baml
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\LevantarReporte.g.cs
+C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\vista\LevantarReporte.baml
