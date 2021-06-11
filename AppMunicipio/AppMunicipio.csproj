@@ -176,12 +176,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\deco.png" />
-    <Resource Include="Images\deco1.png" />
-    <Resource Include="Images\SSPEV.png" />
+    <Resource Include="images\deco.png" />
+    <Resource Include="images\deco1.png" />
+    <Resource Include="images\SSPEV.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\logoSSP.png" />
+    <Resource Include="images\logoSSP.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

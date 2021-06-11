@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppMunicipio.modelo.dao;
+using AppMunicipio.modelo.poco;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,9 +28,30 @@ namespace AppMunicipio.vista
 
         private void btnIngresar_Click(object sender, RoutedEventArgs e)
         {
-            MenuPrincipal menuPrincipal = new MenuPrincipal();
-            menuPrincipal.Show();
-            this.Close();
+            if (validarUsuario())
+            {
+                MenuPrincipal menuPrincipal = new MenuPrincipal();
+                menuPrincipal.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Nombre de usuario o contraseña incorrecta");
+            }
+        }
+
+        private bool validarUsuario()
+        {
+            Usuario usuario = UsuarioDAO.getUsuario(tbNombreUsuario.Text);
+            if(usuario.IdUsuario > 0)
+            {
+                if (usuario.NombreUsuario.Equals(tbNombreUsuario.Text) &&
+                    usuario.Contrasenia.Equals(pbContrasenia.Password))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
