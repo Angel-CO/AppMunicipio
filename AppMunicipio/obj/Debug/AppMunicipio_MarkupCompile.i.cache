@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\App.xaml
-11170286307
+10-1143973403
 
-31-1065299321
+34-2030450558
 13-1505183044
-ConsultarDictamenReporte.xaml;ConsultarHistorialReportes.xaml;DecisionReporte.xaml;MainWindow.xaml;MenuMunicipio.xaml;vista\CrudConductor.xaml;vista\CrudVehiculo.xaml;vista\FormularioConductor.xaml;vista\FormularioVehiculo.xaml;vista\LevantarReporte.xaml;vista\ListaConductores.xaml;
+vista\Acceso.xaml;vista\CrudConductor.xaml;vista\CrudVehiculo.xaml;vista\DetallesReporte.xaml;vista\FormularioConductor.xaml;vista\FormularioVehiculo.xaml;vista\HistorialReportes.xaml;vista\LevantarReporte.xaml;vista\ListaConductores.xaml;vista\MenuPrincipal.xaml;
 
-True
+False
 

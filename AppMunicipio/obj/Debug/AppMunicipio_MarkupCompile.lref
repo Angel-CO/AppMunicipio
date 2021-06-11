@@ -1,14 +1,13 @@
 ﻿
 
-FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\ConsultarDictamenReporte.xaml;;
-FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\ConsultarHistorialReportes.xaml;;
-FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\DecisionReporte.xaml;;
-FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\MainWindow.xaml;;
-FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\MenuMunicipio.xaml;;
+FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\Acceso.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\CrudConductor.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\CrudVehiculo.xaml;;
+FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\DetallesReporte.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\FormularioConductor.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\FormularioVehiculo.xaml;;
+FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\HistorialReportes.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\LevantarReporte.xaml;;
 FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\ListaConductores.xaml;;
+FC:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\vista\MenuPrincipal.xaml;;
 

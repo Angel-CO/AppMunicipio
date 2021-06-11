@@ -10,27 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AppMunicipio
+namespace AppMunicipio.vista
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Acceso.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Acceso : Window
     {
-        public MainWindow()
+        public Acceso()
         {
             InitializeComponent();
         }
 
-        private void btn_ingresar_click(object sender, RoutedEventArgs e)
+        private void btnIngresar_Click(object sender, RoutedEventArgs e)
         {
-            MenuMunicipio menu = new MenuMunicipio();
-            menu.Show();
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
             this.Close();
-
         }
     }
 }

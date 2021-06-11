@@ -58,23 +58,33 @@
     <Compile Include="modelo\dao\ConductorDAO.cs" />
     <Compile Include="modelo\dao\ConductorReporteDAO.cs" />
     <Compile Include="modelo\dao\DelegacionDAO.cs" />
+    <Compile Include="modelo\dao\DictamenDAO.cs" />
     <Compile Include="modelo\dao\FotografiaDAO.cs" />
     <Compile Include="modelo\dao\ReporteDAO.cs" />
+    <Compile Include="modelo\dao\UsuarioDAO.cs" />
     <Compile Include="modelo\dao\VehiculoDAO.cs" />
     <Compile Include="modelo\dao\VehiculoReporteDAO.cs" />
     <Compile Include="modelo\db\ConexionBD.cs" />
     <Compile Include="modelo\poco\Conductor.cs" />
     <Compile Include="modelo\poco\ConductorReporte.cs" />
     <Compile Include="modelo\poco\Delegacion.cs" />
+    <Compile Include="modelo\poco\Dictamen.cs" />
     <Compile Include="modelo\poco\Fotografia.cs" />
     <Compile Include="modelo\poco\Reporte.cs" />
+    <Compile Include="modelo\poco\Usuario.cs" />
     <Compile Include="modelo\poco\Vehiculo.cs" />
     <Compile Include="modelo\poco\VehiculoReporte.cs" />
+    <Compile Include="vista\Acceso.xaml.cs">
+      <DependentUpon>Acceso.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vista\CrudConductor.xaml.cs">
       <DependentUpon>CrudConductor.xaml</DependentUpon>
     </Compile>
     <Compile Include="vista\CrudVehiculo.xaml.cs">
       <DependentUpon>CrudVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vista\DetallesReporte.xaml.cs">
+      <DependentUpon>DetallesReporte.xaml</DependentUpon>
     </Compile>
     <Compile Include="vista\FormularioConductor.xaml.cs">
       <DependentUpon>FormularioConductor.xaml</DependentUpon>
@@ -82,46 +92,23 @@
     <Compile Include="vista\FormularioVehiculo.xaml.cs">
       <DependentUpon>FormularioVehiculo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="vista\HistorialReportes.xaml.cs">
+      <DependentUpon>HistorialReportes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="vista\LevantarReporte.xaml.cs">
       <DependentUpon>LevantarReporte.xaml</DependentUpon>
     </Compile>
     <Compile Include="vista\ListaConductores.xaml.cs">
       <DependentUpon>ListaConductores.xaml</DependentUpon>
     </Compile>
-    <Page Include="ConsultarDictamenReporte.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ConsultarHistorialReportes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DecisionReporte.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="vista\MenuPrincipal.xaml.cs">
+      <DependentUpon>MenuPrincipal.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ConsultarDictamenReporte.xaml.cs">
-      <DependentUpon>ConsultarDictamenReporte.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarHistorialReportes.xaml.cs">
-      <DependentUpon>ConsultarHistorialReportes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DecisionReporte.xaml.cs">
-      <DependentUpon>DecisionReporte.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="MenuMunicipio.xaml">
+    <Page Include="vista\Acceso.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,11 +120,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="vista\DetallesReporte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="vista\FormularioConductor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="vista\FormularioVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vista\HistorialReportes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -149,11 +144,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="vista\MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuMunicipio.xaml.cs">
-      <DependentUpon>MenuMunicipio.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -182,7 +178,6 @@
   <ItemGroup>
     <Resource Include="Images\deco.png" />
     <Resource Include="Images\deco1.png" />
-    <Resource Include="Images\deco2.png" />
     <Resource Include="Images\SSPEV.png" />
   </ItemGroup>
   <ItemGroup>

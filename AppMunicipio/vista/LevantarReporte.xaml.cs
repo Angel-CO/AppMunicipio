@@ -82,6 +82,10 @@ namespace AppMunicipio.vista
                 guardarVehiculoReporte(ultimoReporte);
                 guardarImagenes(ultimoReporte);
                 MessageBox.Show("Reporte guardado");
+
+                HistorialReportes historialReportes = new HistorialReportes();
+                historialReportes.Show();
+                this.Close();
             }
             else
             {
@@ -275,6 +279,13 @@ namespace AppMunicipio.vista
             {
                 btnAgregarImagen.IsEnabled = false;
             }
+        }
+
+        private void btnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            HistorialReportes historialReportes = new HistorialReportes();
+            historialReportes.Show();
+            this.Close();
         }
     }
 }

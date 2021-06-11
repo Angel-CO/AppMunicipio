@@ -36,7 +36,9 @@ namespace AppMunicipio.vista
 
         private void btnCancelar_Click(object sender, RoutedEventArgs e)
         {
-
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
+            this.Close();
         }
 
         private void btnAgregar_Click(object sender, RoutedEventArgs e)

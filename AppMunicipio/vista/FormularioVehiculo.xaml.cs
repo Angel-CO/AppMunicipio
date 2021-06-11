@@ -60,8 +60,17 @@ namespace AppMunicipio.vista
         }
         private void btnCancelar_Click(object sender, RoutedEventArgs e)
         {
-            ListaConductores listaConductores = new ListaConductores();
-            listaConductores.Show();
+            if (esNuevo)
+            {
+                ListaConductores listaConductores = new ListaConductores();
+                listaConductores.Show();
+            }
+            else
+            {
+                CrudVehiculo crudVehiculo = new CrudVehiculo();
+                crudVehiculo.Show();
+            }
+            
             this.Close();
         }
 

@@ -36,8 +36,8 @@ namespace AppMunicipio.vista
 
         private void btnCancelar_Click(object sender, RoutedEventArgs e)
         {
-            MenuMunicipio menuMunicipio = new MenuMunicipio();
-            menuMunicipio.Show();
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
             this.Close();
         }
 
