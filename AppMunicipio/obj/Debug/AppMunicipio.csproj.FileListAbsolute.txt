@@ -8,13 +8,11 @@ C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\M
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\bin\Debug\AppMunicipio.exe.config
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\bin\Debug\AppMunicipio.exe
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\bin\Debug\AppMunicipio.pdb
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\Chat.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarDictamenReporte.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarHistorialReportes.g.cs
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\MainWindow.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\DecisionReporte.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\MenuMunicipio.baml
-C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\Chat.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarDictamenReporte.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\ConsultarHistorialReportes.baml
 C:\Users\A515-54-798T\Desktop\Proyecto TCS\AppMunicipio\AppMunicipio\obj\Debug\AppMunicipio.g.resources

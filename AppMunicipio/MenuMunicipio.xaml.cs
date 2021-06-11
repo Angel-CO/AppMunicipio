@@ -59,8 +59,6 @@ namespace AppMunicipio
 
         private void btn_chat_click(object sender, RoutedEventArgs e)
         {
-            Chat chat = new Chat();
-            chat.Show();
             this.Close();
         }
 

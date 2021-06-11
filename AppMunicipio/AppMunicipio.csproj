@@ -58,6 +58,7 @@
     <Compile Include="modelo\dao\ConductorDAO.cs" />
     <Compile Include="modelo\dao\ConductorReporteDAO.cs" />
     <Compile Include="modelo\dao\DelegacionDAO.cs" />
+    <Compile Include="modelo\dao\FotografiaDAO.cs" />
     <Compile Include="modelo\dao\ReporteDAO.cs" />
     <Compile Include="modelo\dao\VehiculoDAO.cs" />
     <Compile Include="modelo\dao\VehiculoReporteDAO.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="modelo\poco\Conductor.cs" />
     <Compile Include="modelo\poco\ConductorReporte.cs" />
     <Compile Include="modelo\poco\Delegacion.cs" />
+    <Compile Include="modelo\poco\Fotografia.cs" />
     <Compile Include="modelo\poco\Reporte.cs" />
     <Compile Include="modelo\poco\Vehiculo.cs" />
     <Compile Include="modelo\poco\VehiculoReporte.cs" />
@@ -86,10 +88,6 @@
     <Compile Include="vista\ListaConductores.xaml.cs">
       <DependentUpon>ListaConductores.xaml</DependentUpon>
     </Compile>
-    <Page Include="Chat.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="ConsultarDictamenReporte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -109,9 +107,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Chat.xaml.cs">
-      <DependentUpon>Chat.xaml</DependentUpon>
     </Compile>
     <Compile Include="ConsultarDictamenReporte.xaml.cs">
       <DependentUpon>ConsultarDictamenReporte.xaml</DependentUpon>
@@ -191,10 +186,6 @@
     <Resource Include="Images\SSPEV.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\choque01.jpg" />
-    <Resource Include="Images\choque02.jpg" />
-    <Resource Include="Images\choque03.jpg" />
-    <Resource Include="Images\choque04.png" />
     <Resource Include="Images\logoSSP.png" />
   </ItemGroup>
   <ItemGroup />

@@ -1,8 +1,10 @@
 ﻿using AppMunicipio.modelo.dao;
 using AppMunicipio.modelo.poco;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,12 +30,18 @@ namespace AppMunicipio.vista
         ObservableCollection<Vehiculo> vehiculos;
         ObservableCollection<Vehiculo> vehiculosSeleccionados;
 
+        
+        List<byte[]> listaBytesImagenes;
+        int numeroFotos;
         public LevantarReporte()
         {
             InitializeComponent();
             cargarDelegaciones();
             cargarCondutores();
             cargarVehiculos();
+
+            listaBytesImagenes = new List<byte[]>();
+            numeroFotos = 0;
         }
 
         private void cargarDelegaciones()
@@ -72,6 +80,7 @@ namespace AppMunicipio.vista
 
                 guardarConductorReporte(ultimoReporte);
                 guardarVehiculoReporte(ultimoReporte);
+                guardarImagenes(ultimoReporte);
                 MessageBox.Show("Reporte guardado");
             }
             else
@@ -119,7 +128,12 @@ namespace AppMunicipio.vista
                 lbVehiculosSeleccionados.Foreground = Brushes.Red;
                 datosValidos = false;
             }
-
+            
+            if (numeroFotos < 3)
+            {
+                MessageBox.Show("Agrege al menos 3 fotografias");
+                datosValidos = false;
+            }
             return datosValidos;
         }
 
@@ -185,7 +199,6 @@ namespace AppMunicipio.vista
                 conductorReporte.IdReporte = ultimoReporte.IdReporte;
 
                 ConductorReporteDAO.registrarConductorReporte(conductorReporte);
-
             }
         }
 
@@ -198,6 +211,69 @@ namespace AppMunicipio.vista
                 vehiculoReporte.IdReporte = ultimoReporte.IdReporte;
 
                 VehiculoReporteDAO.registrarVehiculoReporte(vehiculoReporte);
+            }
+        }
+
+        private void guardarImagenes(Reporte ultimoReporte)
+        {
+            foreach(byte[] bytesImagen in listaBytesImagenes)
+            {
+                Fotografia fotografia = new Fotografia();
+                fotografia.Foto = bytesImagen;
+                fotografia.IdReporte = ultimoReporte.IdReporte;
+
+                FotografiaDAO.guardarImagen(fotografia);
+            }
+        }
+
+        private void btnAgregarImagen_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Archivos de Imagen (*.jpg)(*.jpeg)|*.jpg;*.jpeg|PNG(*.png)|*.png";
+            openFileDialog.Multiselect = false;
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                BitmapImage bitmapImage = new BitmapImage();
+
+                bitmapImage.BeginInit();
+                bitmapImage.StreamSource = File.OpenRead(openFileDialog.FileName);
+                bitmapImage.EndInit();
+                bitmapImage.Freeze();
+
+                switch (numeroFotos)
+                {
+                    case 0:
+                        imgImagen01.Source = bitmapImage;
+                        break;
+                    case 1:
+                        imgImagen02.Source = bitmapImage;
+                        break;
+                    case 2:
+                        imgImagen03.Source = bitmapImage;
+                        break;
+                    case 3:
+                        imgImagen04.Source = bitmapImage;
+                        break;
+                    case 4:
+                        imgImagen05.Source = bitmapImage;
+                        break;
+                    case 5:
+                        imgImagen06.Source = bitmapImage;
+                        break;
+                    case 6:
+                        imgImagen07.Source = bitmapImage;
+                        break;
+                    case 7:
+                        imgImagen08.Source = bitmapImage;
+                        break;
+                }
+                listaBytesImagenes.Add(File.ReadAllBytes(openFileDialog.FileName));          
+            }
+            numeroFotos++;
+            if (numeroFotos == 8)
+            {
+                btnAgregarImagen.IsEnabled = false;
             }
         }
     }
