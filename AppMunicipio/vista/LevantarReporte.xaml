@@ -67,7 +67,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <Label Content="Seleccione a los condcutires." Grid.Row="0" Grid.Column="0"/>
+                    <Label Content="Seleccione a los conductores." Grid.Row="0" Grid.Column="0"/>
                     <ListView x:Name="lvCondcutores" Grid.Row="0" Grid.Column="0" Margin="10,30,10,10" SelectionChanged="lvCondcutores_SelectionChanged">
                         <ListView.View>
                             <GridView>
@@ -94,7 +94,7 @@
                     </ListView>
 
 
-                    <Label Content="Seleccione a los vehiculos." Grid.Row="1" Grid.Column="0"/>
+                    <Label Content="Seleccione los vehículos." Grid.Row="1" Grid.Column="0"/>
                     <ListView x:Name="lvVehiculos" Grid.Row="1" Grid.Column="0" Margin="10,30,10,10" SelectionChanged="lvVehiculos_SelectionChanged">
                         <ListView.View>
                             <GridView>
